@@ -1,4 +1,7 @@
-#Sun Jul 26 11:52:45 MST 2020
-base.0=C\:\\Users\\burch\\OneDrive\\Documents\\NAU Summer 2020\\CS 386\\journal_time\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sun Jul 26 12:37:28 MST 2020
+base.0=C\:\\Users\\burch\\AndroidStudioProjects\\journal_time\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\burch\\OneDrive\\Documents\\NAU Summer 2020\\CS 386\\journal_time\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
