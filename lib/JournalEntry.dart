@@ -61,6 +61,8 @@ class JournalEntry extends StatelessWidget {
   }
 
 
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -82,10 +84,8 @@ class JournalEntry extends StatelessWidget {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Route route = MaterialPageRoute(
-            builder: (context) =>
-                Day(
-                    choiceDay: choiceDay, journalText: myController.text
-                ),
+            builder: (context) => Day(
+              choiceDay: choiceDay, journalText: journalText),
           );
           Navigator.push(context, route);
           },

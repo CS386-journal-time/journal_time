@@ -11,7 +11,7 @@ class Photo extends StatefulWidget {
 }
 
 class _PhotoState extends State<Photo> {
-  File _image;
+  static File _image;
   final picker = ImagePicker();
 
 
@@ -20,7 +20,7 @@ class _PhotoState extends State<Photo> {
     var pickedFile = await picker.getImage(source: ImageSource.gallery);
 
     setState(() {
-      _image = File(pickedFile.path);;
+      _image = File(pickedFile.path);
     });
   }
 
@@ -29,10 +29,9 @@ class _PhotoState extends State<Photo> {
     var pickedFile = await picker.getImage(source: ImageSource.camera);
 
     setState(() {
-      _image = File(pickedFile.path);;
+      _image = File(pickedFile.path);
     });
   }
-
 
   // alert for choice between camera and gallery
   Future showAlertDialog() {

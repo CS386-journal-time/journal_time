@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:journal_time1/customColor.dart';
 import 'package:table_calendar/table_calendar.dart';
-
 import 'Day.dart';
 
 void main() {
